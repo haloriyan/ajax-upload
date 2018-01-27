@@ -1,0 +1,41 @@
+.view {
+	position: absolute;
+	top: 0px;left: 0px;right: 0px;bottom: 0px;
+	color: #fff;
+	background-color: #3498db;
+}
+.view h1 {
+	font-size: 46px;
+	text-align: center;
+	margin-top: 18%;
+	transition: 0.4s;
+}
+.input {
+	position: absolute;
+	top: 0px;left: 0px;right: 0px;bottom: 0px;
+}
+.input input[type=file] {
+	width: 100%;
+	height: 99%;
+	opacity: 0.01;
+}
+#progress-wrp {
+	width: 70%;
+	margin-left: 15%;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	display: none;
+	margin-top: 92px;
+}
+#progress-wrp .progress-bar {
+	background-color: #fff;
+	width: 0%;
+	height: 35px;
+	border-radius: 20px;
+}
+@media(max-width: 480px) {
+	.view h1 {
+		font-size: 30px;
+		margin-top: 30%;
+	}
+}
